@@ -1,0 +1,11 @@
+package fr.etu.steats.enums;
+
+public enum EOrderStatus {
+    WAITING_PAYMENT,
+    WAITING_RESTAURANT_ACCEPTANCE,
+    IN_PREPARATION,
+    WAITING_DELIVER_ACCEPTANCE,
+    IN_DELIVERY,
+    FINISH,
+    CANCELED
+}
